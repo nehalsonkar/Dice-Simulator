@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    background-color: rgb(255,0,76);
+}
+
+.cont11{
+    margin: 0px ;
+    padding: 0px;
+    background: url('Images/Background-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    background-position: center center;   
+}
+
+.discription{
+    color: #8d0ccf;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.button{
+    border: 1px solid rgb(225 0 255);
+    font-family: 'Rubik Gemstones', cursive;
+    height: 47px;
+    width: 250px;
+    font-size: 40px;
+    color:black ;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;    
+    background-color: #ef0031;
+    box-shadow: 10px 10px 5px #b70fca;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.cont22{
+    width: 40vw;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.animation{
+    height: 5px;
+    width: 0px;
+    background-color: #ef00af;
+    position: relative;
+    animation-name: box-spread;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode:none;   
+}
+
+@keyframes box-spread {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.button a:hover{
+    background-color: #ff0044;
+    color: rgb(255, 255, 255);
+}
+
+@media(max-width:520px){
+
+    .cont11{
+        height: 100vh;
+        width: 100vw;
+        background:url('Images/Background-image2.jpg');
+        background-size: 400px 750px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .button{
+        margin-top: 150px;
+        height: 40px;
+        width: 200px;
+        font-size: 30px;
+        box-shadow: 7px 7px 3px #b70fca;
+
+    }
+    .cont22{
+        width: 70vw;
+        margin: auto;
+        margin-top: 120px;
+    }
+
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cont1{
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color:  rgb(255 113 142);
+    height: 70px;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    font-family: 'Rubik Puddles', cursive;    
+}
+
+.cont1 p a{
+    text-decoration: none;
+    color: #be0000;
+}
+
+.cont1 p{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 800;   
+}
+
+.cont1 p a:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cont1 img{
+    height: 65px;
+    width: 65px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    
+}
+
+.cont2{
+    border-radius: 40px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    background-color: rgb(255 172 172);
+    height: 450px;
+    width: 90vw;
+    box-shadow: 10px 10px 12px #e37196;
+}
+
+.cont2 img{
+    border-radius: 10px;
+    height: 390px;
+    width: 420px;
+    box-shadow: 7px 7px 5px rgb(231 72 72);
+}
+
+@media (max-width:550px){
+    
+    .cont2 img{
+        height: 280px;
+        width: 280px;
+    }
+
+    .click{
+        height: 120px;
+    }
+}
+
+.click{
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 80px;
+    background-color: #fd83d4;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+}
+
+.click :hover {
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.button1{
+    border-radius: 10px;
+    color:#ddfe7a;
+    font-family: 'Moon Dance', cursive;
+    background-color: #be0000;
+    box-shadow: 5px 5px 5px #d0ff3f;    
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;           
+}
